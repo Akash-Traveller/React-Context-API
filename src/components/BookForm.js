@@ -19,7 +19,7 @@ const NewBookForm = () => {
                 onChange={(e) => setTitle(e.target.value)} />
             <input type="text" placeholder="author name" value={author}
                 onChange={(e) => setAuthor(e.target.value)} />
-            <input type="submit" value="add book" />
+            <input type="submit" value="Add book" />
         </form>
     );
 }
